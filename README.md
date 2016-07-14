@@ -17,7 +17,7 @@ to change their usernames and emails.
 
 
 Installation:
-git clone
+git clone https://github.com/mitkonikolov/Invest-Smart.git
 composer install
 bin/console doctrine:database:create
 
