@@ -1,7 +1,7 @@
 Invest_smart
 ============
 
-Project Description:
+<h3>Project Description:</h3>
 
 Invest smart allows users to create stock portfolios. As users generate and/or edit their portfolio, a plot
 representing cost of portfolio vs time for the last two years updates simultaneously. As stated in the project's
@@ -16,21 +16,22 @@ to change their usernames and emails.
 
 
 
-Installation:
-git clone https://github.com/mitkonikolov/Invest-Smart.git
-composer install
-bin/console doctrine:database:create 
+<h3>Installation:</h3>
+git clone https://github.com/mitkonikolov/Invest-Smart.git<br/>
+composer install<br/>
+bin/console doctrine:database:create <br/>
 
 
 
-Timesheet:
+<h3>Timesheet:</h3>
 I have significant experience in development with Java and C++. Before I made this application, I also had a limited
 experience with PHP and MySQL, and I had made a very simple web application before.
 
-To make this application, I had to start from the very basics and I spent time to:
-Learn Symfony basics and undestand better web development - 12 hours
-Integrate FOSUserBundle in my project - 2.5 hours
-Fetch data from Yahoo Finance - 5 hours
+To make this application, I had to start from the very basics and I spent time to:<br/>
+Learn Symfony basics and undestand better web development - 12 hours<br/>
+Integrate FOSUserBundle in my project - 2.5 hours<br />
+Fetch data from Yahoo Finance - 5 hours<br />
 Draw diagram - 5 hours
 
-I know that this time is certainly not the best, but as I said this was my first application ever. I believe that in the future I will be able to create a lot better designed code.
+I know that this time is certainly not the best, but as I said this was my first application ever. <br/>
+I believe that in the future I will be able to create faster very well designed code.
