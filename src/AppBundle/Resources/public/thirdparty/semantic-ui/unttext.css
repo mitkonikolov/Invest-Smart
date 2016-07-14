@@ -1,0 +1,89 @@
+body {
+    background-color: #e5e5e5;
+}
+
+h1 {
+    display: block;
+    font-size: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: Gabriola;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+}
+
+.logger{
+    text-align: left;
+    position: relative;
+}
+
+.reg{
+    float: right;
+}
+
+
+#portfolio-container{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-self: center;
+}
+
+
+#graph{
+    display: block;
+    width:100%;
+    height:100%;
+    
+}
+
+#tbody{
+    border: double;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#top{
+    font-size: 45px;
+    font-family: Gabriola;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+}
+
+#quote-add{
+    width: 200px;
+}
+
+#tab{
+    width: 500px;
+    text-align: center;
+}
+
+#diagram{
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    width: 200px;
+    clear: both;
+}
+.container input {
+    width: auto;
+    clear: both;
+}
+
+.buttons {
+    width: 500px;
+    margin-top: 20px;
+    clear: both;
+}
+

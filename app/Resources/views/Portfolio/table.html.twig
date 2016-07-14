@@ -1,0 +1,38 @@
+<table id="tab">
+    <thead>
+        <th colspan="5">
+            <div>
+                <div>Stocks</div>
+                <div>
+                    <div>
+                        <input id="quote-add" type="text" placeholder="Type Stock Symbol & Press Enter">
+                    </div>
+                </div>
+            </div>
+        </th>
+        <tr>
+            <th>Symbol</th>
+            <th>Company</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for quote in quotes %}
+        <tr id="stock-row-{{ quote.id }}">
+            <td>{{ quote.symbol }}</td>
+            <td>{{ quote.companyName }}</td>
+            <td>{{ '$' }}{{ quote.lastTradePrice|number_format(2)}}</td>
+            <td>{{ quote.changeInPercent }}</td>
+            <td>
+                <button class="ui icon tiny stock-remove button" data-id="{{ quote.id }}">
+                    Remove
+                </button>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>

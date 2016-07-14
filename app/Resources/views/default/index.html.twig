@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block style %}
+    <style>
+    </style>
+{% endblock %}
+
+{% block header %}
+    {% if is_granted('ROLE_USER') %}
+        <p id="top">Invest Smart</p>
+    {% endif %}
+{% endblock %}
+{% block content %}
+    {% if is_granted('ROLE_USER') %}
+        <div id="portfolio-container">
+            {{ render_hinclude(url('portfolio_table')) }}
+        </div>
+        <div id="diagram"><canvas id="graph"></canvas></div>
+    {% else %}
+        <h1>Invest smart</h1>
+    {% endif %}
+{% endblock %}
+
+
