@@ -33,5 +33,4 @@ Integrate FOSUserBundle in my project - 2.5 hours
 Fetch data from Yahoo Finance - 5 hours
 Draw diagram - 5 hours
 
-I know that this time is certainly not the best, but as I said this was my first application ever. I am sure that
-in my future work I will be significantly faster and create a lot better designed code.
+I know that this time is certainly not the best, but as I said this was my first application ever. I believe that in the future I will be able to create a lot better designed code.
